@@ -12,12 +12,24 @@ ShallowWrapper {
     <h2>
         Gift Giver
     </h2>
+    <button
+        className="btn-add"
+        onClick={[Function]}
+    >
+        Add Gift
+    </button>
 </div>,
   "nodes": Array [
     <div>
       <h2>
             Gift Giver
       </h2>
+      <button
+            className="btn-add"
+            onClick={[Function]}
+      >
+            Add Gift
+      </button>
 </div>,
   ],
   "options": Object {},
@@ -32,10 +44,13 @@ ShallowWrapper {
       "_hostParent": null,
       "_instance": App {
         "_reactInternalInstance": [Circular],
+        "addGift": [Function],
         "context": Object {},
         "props": Object {},
         "refs": Object {},
-        "state": null,
+        "state": Object {
+          "gifts": Array [],
+        },
         "updater": Object {
           "enqueueCallback": [Function],
           "enqueueCallbackInternal": [Function],
@@ -58,12 +73,24 @@ ShallowWrapper {
           <h2>
                     Gift Giver
           </h2>
+          <button
+                    className="btn-add"
+                    onClick={[Function]}
+          >
+                    Add Gift
+          </button>
 </div>,
         "_debugID": 2,
         "_renderedOutput": <div>
           <h2>
                     Gift Giver
           </h2>
+          <button
+                    className="btn-add"
+                    onClick={[Function]}
+          >
+                    Add Gift
+          </button>
 </div>,
       },
       "_renderedNodeType": 0,
