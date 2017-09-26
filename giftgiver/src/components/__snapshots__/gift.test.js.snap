@@ -31,6 +31,22 @@ ShallowWrapper {
                 onChange={[Function]}
             />
         </FormGroup>
+        <FormGroup
+            bsClass="form-group"
+        >
+            <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+            >
+                Present
+            </ControlLabel>
+            <FormControl
+                bsClass="form-control"
+                className="input-present"
+                componentClass="input"
+                onChange={[Function]}
+            />
+        </FormGroup>
     </Form>
 </div>,
   "nodes": Array [
@@ -53,6 +69,22 @@ ShallowWrapper {
                   <FormControl
                         bsClass="form-control"
                         className="input-person"
+                        componentClass="input"
+                        onChange={[Function]}
+                  />
+            </FormGroup>
+            <FormGroup
+                  bsClass="form-group"
+            >
+                  <ControlLabel
+                        bsClass="control-label"
+                        srOnly={false}
+                  >
+                        Present
+                  </ControlLabel>
+                  <FormControl
+                        bsClass="form-control"
+                        className="input-present"
                         componentClass="input"
                         onChange={[Function]}
                   />
@@ -120,6 +152,22 @@ ShallowWrapper {
                                         onChange={[Function]}
                               />
                     </FormGroup>
+                    <FormGroup
+                              bsClass="form-group"
+                    >
+                              <ControlLabel
+                                        bsClass="control-label"
+                                        srOnly={false}
+                              >
+                                        Present
+                              </ControlLabel>
+                              <FormControl
+                                        bsClass="form-control"
+                                        className="input-present"
+                                        componentClass="input"
+                                        onChange={[Function]}
+                              />
+                    </FormGroup>
           </Form>
 </div>,
         "_debugID": 2,
@@ -142,6 +190,22 @@ ShallowWrapper {
                               <FormControl
                                         bsClass="form-control"
                                         className="input-person"
+                                        componentClass="input"
+                                        onChange={[Function]}
+                              />
+                    </FormGroup>
+                    <FormGroup
+                              bsClass="form-group"
+                    >
+                              <ControlLabel
+                                        bsClass="control-label"
+                                        srOnly={false}
+                              >
+                                        Present
+                              </ControlLabel>
+                              <FormControl
+                                        bsClass="form-control"
+                                        className="input-present"
                                         componentClass="input"
                                         onChange={[Function]}
                               />
