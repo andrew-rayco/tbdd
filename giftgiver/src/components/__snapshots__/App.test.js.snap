@@ -12,6 +12,11 @@ ShallowWrapper {
     <h2>
         Gift Giver
     </h2>
+    <div
+        className="gift-list"
+    >
+        
+    </div>
     <button
         className="btn-add"
         onClick={[Function]}
@@ -24,6 +29,11 @@ ShallowWrapper {
       <h2>
             Gift Giver
       </h2>
+      <div
+            className="gift-list"
+      >
+            
+      </div>
       <button
             className="btn-add"
             onClick={[Function]}
@@ -73,6 +83,11 @@ ShallowWrapper {
           <h2>
                     Gift Giver
           </h2>
+          <div
+                    className="gift-list"
+          >
+                    
+          </div>
           <button
                     className="btn-add"
                     onClick={[Function]}
@@ -85,6 +100,11 @@ ShallowWrapper {
           <h2>
                     Gift Giver
           </h2>
+          <div
+                    className="gift-list"
+          >
+                    
+          </div>
           <button
                     className="btn-add"
                     onClick={[Function]}
