@@ -8,7 +8,9 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <div>
+  "node": <div
+    className="gift"
+>
     <Form
         bsClass="form"
         componentClass="form"
@@ -48,15 +50,22 @@ ShallowWrapper {
             />
         </FormGroup>
     </Form>
-    <button
+    <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="default"
         className="btn-remove"
+        disabled={false}
         onClick={[Function]}
     >
         Remove Gift
-    </button>
+    </Button>
 </div>,
   "nodes": Array [
-    <div>
+    <div
+      className="gift"
+>
       <Form
             bsClass="form"
             componentClass="form"
@@ -96,12 +105,17 @@ ShallowWrapper {
                   />
             </FormGroup>
       </Form>
-      <button
+      <Button
+            active={false}
+            block={false}
+            bsClass="btn"
+            bsStyle="default"
             className="btn-remove"
+            disabled={false}
             onClick={[Function]}
       >
             Remove Gift
-      </button>
+      </Button>
 </div>,
   ],
   "options": Object {},
@@ -153,7 +167,9 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <div>
+        "_currentElement": <div
+          className="gift"
+>
           <Form
                     bsClass="form"
                     componentClass="form"
@@ -193,15 +209,22 @@ ShallowWrapper {
                               />
                     </FormGroup>
           </Form>
-          <button
+          <Button
+                    active={false}
+                    block={false}
+                    bsClass="btn"
+                    bsStyle="default"
                     className="btn-remove"
+                    disabled={false}
                     onClick={[Function]}
           >
                     Remove Gift
-          </button>
+          </Button>
 </div>,
         "_debugID": 2,
-        "_renderedOutput": <div>
+        "_renderedOutput": <div
+          className="gift"
+>
           <Form
                     bsClass="form"
                     componentClass="form"
@@ -241,12 +264,17 @@ ShallowWrapper {
                               />
                     </FormGroup>
           </Form>
-          <button
+          <Button
+                    active={false}
+                    block={false}
+                    bsClass="btn"
+                    bsStyle="default"
                     className="btn-remove"
+                    disabled={false}
                     onClick={[Function]}
           >
                     Remove Gift
-          </button>
+          </Button>
 </div>,
       },
       "_renderedNodeType": 0,
