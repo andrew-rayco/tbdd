@@ -7,9 +7,16 @@ export const setBalance = balance => {
   }
 }
 
-export const deposit = (deposit) => {
+export const deposit = deposit => {
   return {
     type: constants.DEPOSIT,
     deposit
+  }
+}
+
+export const withdrawal = withdrawal => {
+  return {
+    type: constants.WITHDRAWAL,
+    withdrawal
   }
 }
