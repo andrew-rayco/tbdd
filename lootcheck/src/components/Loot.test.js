@@ -4,7 +4,7 @@ import { Loot } from './Loot'
 
 describe('Loot', () => {
   const mockFetchBitcoin = jest.fn()
-  let props = { balance: 10, bitcoin: {}, fetchBitcoin: mockFetchBitcoin }
+  let props = { balance: 10, bitcoin: {} }
   let loot = shallow(<Loot {...props} />)
 
   it('renders properly', () => {
